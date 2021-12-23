@@ -31,7 +31,6 @@ body{
     background-color: var(--primary);
     color: var(--secondary);
     font-family: 'GTWalsheim';
-    max-width: 1460px;
     margin: auto auto;
 }
 .btn{
@@ -62,6 +61,7 @@ a{
     background-color: var(--primary);
     overflow: hidden;
     max-width: 1920px;
+    margin: auto auto;
 }
 
 nav{
@@ -1040,5 +1040,15 @@ footer  p{
     .banner .getStarted{
         width: 382px;
         margin: auto;
+    }
+}
+@media (min-width: 1660px) {
+    .app{
+        width: 100vw;
+        max-width: 1970px;
+        margin: auto auto;
+    }
+    .powering .mobileImgContainer{
+        margin-left: 22%;
     }
 }
