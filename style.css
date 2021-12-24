@@ -936,6 +936,9 @@ footer  p{
         width: 100%;
         max-width: unset;
     }
+    .poweredBy .banner{
+        width: 71%;
+    }
 
     footer > div:nth-last-of-type(1){
         width: 40% !important;
